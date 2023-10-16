@@ -1,0 +1,73 @@
+# Project Structure
+
+```tsx
+📁 src
+├─── 🔒 .env
+├─── 🔒 .env.example
+├─── 🧹 .eslintrc.json
+├─── 🚫 .gitignore
+├─── 🎨 .prettierrc
+├─── 🔵 config.js
+├─── 📄 contribution.md
+├─── 📋 jsconfig.json
+├─── 🔵 next.config.js
+├─── 📋 package-lock.json
+├─── 📋 package.json
+└─── 📄 README.md
+│
+📁 helpsData
+│              ├─── 📓 cleaning.ipynb
+│              ├─── 📄 cleaning.md
+│              ├─── 📊 deduplicated_requests.csv
+│              ├─── 📁 helps
+│              ├─── 📁 helpsV2
+│              │                    └─── 📋 helpsV2cleaned.json
+│              └─── 📁 helpsV3
+│              └─── 📋 helpsV3.json
+│
+📁 public
+│              └─── 📁 //static files (images and icons)
+│
+📁 src
+├─── 📁 app
+│                            ├─── 🖼️ favicon.ico
+│                            ├─── 🖌️ globals.css
+│                            ├─── 🔵 layout.js
+│                            ├─── ⚛️ loading.jsx
+│                            ├─── ⚛️ page.js
+│                            └─── 🖌️ page.module.css
+│
+📁 api
+│              └─── 🔵 route.js
+│
+📁 contact
+│              ├─── 🖌️ contactStyle.css
+│              └─── 🔵 page.js
+│
+📁 helps
+│              ├─── ⚛️ help.jsx
+│              ├─── ⚛️ helpCardsPagination.jsx
+│              └─── ⚛️ helpLoading.jsx
+│
+📁 components
+│              └─── 🔵 index.js
+│
+📁 constants
+│              └─── 🔵 helpRequestSteps.js
+│
+📁 hooks
+│              ├─── 🔵 useConfimration.js
+│              └─── 🔵 useDisConfirmation.js
+│
+📁 utils
+│              ├─── 🔵 analytics.js
+│              └─── 🔵 index.js
+│
+📁 firebase
+              └─── 📁 firestore
+              ├─── 🔵 fetchFirestoreBatch.js
+              ├─── 🔵 getAllDocuments.js
+              ├─── 🔵 getAllDocumentsCount.js
+              ├─── 🔵 getDocument.js
+              └─── 🔵 updateFieldInDocument.js
+```
